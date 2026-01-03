@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SAKE • Dedicații Live</title>
+  <meta name="description" content="Trimite dedicații live pentru SAKE — TikTok & YouTube. Rapid, frumos, premium." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Background FX -->
+  <div class="bg">
+    <div class="mesh"></div>
+    <div class="grain"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="scanlines"></div>
+  </div>
+
+  <!-- Top Bar -->
+  <header class="topbar">
+    <a class="brand" href="#top">
+      <span class="brand__mark" aria-hidden="true">
+        <span class="brand__ring"></span>
+        <span class="brand__spark"></span>
+      </span>
+      <span class="brand__text">
+        <span class="brand__name">SAKE</span>
+        <span class="brand__sub">Dedicații Live</span>
+      </span>
+    </a>
+
+    <nav class="nav">
+      <a href="#dedicatii">Dedicații</a>
+      <a href="#live">Live</a>
+      <a href="#preturi">Prețuri</a>
+      <a class="cta" href="#trimite">Trimite acum</a>
+    </nav>
+  </header>
+
+  <main id="top" class="container">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__left">
+        <div class="badge">
+          <span class="dot"></span> LIVE pe TikTok & YouTube • Dedicații instant
+        </div>
+
+        <h1 class="title">
+          Dedicații care <span class="glow">rup live-ul</span>.
+          <span class="title__small">Premium look, vibe de scenă, flow rapid.</span>
+        </h1>
+
+        <p class="lead">
+          Scrii dedicația, alegi suma și trimiți. Mesajul tău intră în listă și se vede frumos pe telefon.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#trimite">
+            <span>Trimite dedicație</span>
+            <i class="arrow" aria-hidden="true"></i>
+          </a>
+          <a class="btn btn--ghost" href="#live">Vezi live</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <span class="stat__num">⚡</span>
+            <span class="stat__label">rapid & mobile-first</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">💎</span>
+            <span class="stat__label">design wow / 3D glass</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">🔒</span>
+            <span class="stat__label">plată (Stripe/PayPal/Revolut)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__right">
+        <!-- 3D Card -->
+        <div class="stage">
+          <div class="card3d">
+            <div class="card3d__shine"></div>
+            <div class="card3d__content">
+              <div class="card3d__top">
+                <span class="pill">🎤 SAKE</span>
+                <span class="pill pill--alt">✨ LIVE DEDICATII</span>
+              </div>
+
+              <div class="card3d__mid">
+                <div class="vinyl" aria-hidden="true">
+                  <div class="vinyl__ring"></div>
+                  <div class="vinyl__ring r2"></div>
+                  <div class="vinyl__ring r3"></div>
+                  <div class="vinyl__label">SAKE</div>
+                </div>
+
+                <div class="now">
+                  <div class="now__title">Acum pe scenă</div>
+                  <div class="now__line">
+                    <span class="pulse"></span>
+                    <span>Dedicații deschise</span>
+                  </div>
+                  <div class="now__hint">Trimite mesajul tău și intră în vibe.</div>
+                </div>
+              </div>
+
+              <div class="card3d__bottom">
+                <div class="mini">
+                  <span class="mini__k">TikTok</span>
+                  <span class="mini__v">@sake_live</span>
+                </div>
+                <div class="mini">
+                  <span class="mini__k">YouTube</span>
+                  <span class="mini__v">Sake Official</span>
+                </div>
+                <div class="mini mini--right">
+                  <span class="mini__k">Start</span>
+                  <span class="mini__v">Astăzi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="floaters" aria-hidden="true">
+            <span class="floater f1">💸</span>
+            <span class="floater f2">🔥</span>
+            <span class="floater f3">🎶</span>
+            <span class="floater f4">✨</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STRIP -->
+    <section id="dedicatii" class="strip">
+      <div class="strip__inner">
+        <div class="strip__item">
+          <span class="strip__icon">📝</span>
+          <span>Completezi dedicația</span>
+        </div>
+        <div class="strip__divider"></div>
+        <div class="strip__item">
+          <span class="strip__icon">💳</span>
+          <span>Plătești rapid</span>
+        </div>
+        <div class="strip__divider"></div>
+        <div class="strip__item">
+          <span class="strip__icon">🎤</span>
+          <span>Intră live</span>
+        </div>
+        <div class="strip__divider"></div>
+        <div class="strip__item">
+          <span class="strip__icon">✅</span>
+          <span>Se citește pe scenă</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVE EMBEDS -->
+    <section id="live" class="grid2">
+      <div class="panel">
+        <div class="panel__head">
+          <h2 class="h2">TikTok Live</h2>
+          <p class="sub">Pui aici embed-ul sau link-ul contului.</p>
+        </div>
+
+        <div class="embed">
+          <div class="embed__placeholder">
+            <div class="embed__tag">TikTok</div>
+            <div class="embed__title">Înlocuiește cu embed TikTok</div>
+            <p class="embed__hint">
+              (după ce ai link, îl punem pe bune)
+            </p>
+          </div>
+
+          <!--
+          Exemplu: paste embed TikTok aici
+          -->
+        </div>
+
+        <div class="panel__foot">
+          <a class="link" href="#" aria-disabled="true">Deschide TikTok ↗</a>
+        </div>
+      </div>
+
+      <div class="panel panel--alt">
+        <div class="panel__head">
+          <h2 class="h2">YouTube Live</h2>
+          <p class="sub">Embed pentru stream / canal.</p>
+        </div>
+
+        <div class="embed">
+          <div class="embed__placeholder">
+            <div class="embed__tag">YouTube</div>
+            <div class="embed__title">Înlocuiește cu iframe YouTube</div>
+            <p class="embed__hint">
+              merge și cu „Live now” sau playlist
+            </p>
+          </div>
+
+          <!--
+          Exemplu:
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VIDEO_ID" ...></iframe>
+          -->
+        </div>
+
+        <div class="panel__foot">
+          <a class="link" href="#" aria-disabled="true">Deschide YouTube ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="preturi" class="pricing">
+      <div class="pricing__head">
+        <h2 class="h2 h2--center">Prețuri dedicații</h2>
+        <p class="sub sub--center">Poți schimba sumele instant. Astea sunt exemple.</p>
+      </div>
+
+      <div class="pricing__grid">
+        <article class="priceCard">
+          <div class="priceCard__top">
+            <h3 class="priceCard__name">Standard</h3>
+            <div class="priceCard__price">£5</div>
+            <div class="priceCard__note">1 dedicație</div>
+          </div>
+          <ul class="priceCard__list">
+            <li>Mesaj + cui e dedicată</li>
+            <li>Intră în listă rapid</li>
+            <li>Prioritate normală</li>
+          </ul>
+          <a class="btn btn--ghost btn--full" href="#trimite">Alege Standard</a>
+        </article>
+
+        <article class="priceCard priceCard--featured">
+          <div class="ribbon">RECOMANDAT</div>
+          <div class="priceCard__top">
+            <h3 class="priceCard__name">Boost</h3>
+            <div class="priceCard__price">£10</div>
+            <div class="priceCard__note">1 dedicație</div>
+          </div>
+          <ul class="priceCard__list">
+            <li>Se vede „premium” în listă</li>
+            <li>Prioritate mai bună</li>
+            <li>Confirmare rapidă</li>
+          </ul>
+          <a class="btn btn--primary btn--full" href="#trimite">Alege Boost</a>
+        </article>
+
+        <article class="priceCard">
+          <div class="priceCard__top">
+            <h3 class="priceCard__name">VIP</h3>
+            <div class="priceCard__price">£20</div>
+            <div class="priceCard__note">2 dedicații</div>
+          </div>
+          <ul class="priceCard__list">
+            <li>2 mesaje / 2 persoane</li>
+            <li>Prioritate top</li>
+            <li>„VIP tag” în listă</li>
+          </ul>
+          <a class="btn btn--ghost btn--full" href="#trimite">Alege VIP</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- FORM -->
+    <section id="trimite" class="formWrap">
+      <div class="formWrap__left">
+        <h2 class="h2">Trimite dedicația</h2>
+        <p class="sub">
+          Completează rapid. O facem să trimită către WhatsApp / email / panou admin (cum vrei tu).
+        </p>
+
+        <div class="callouts">
+          <div class="callout">
+            <span class="callout__icon">⚠️</span>
+            <div>
+              <div class="callout__t">Notă</div>
+              <div class="callout__d">E demo vizual. Conectăm plățile după (Stripe/PayPal/Revolut).</div>
+            </div>
+          </div>
+          <div class="callout">
+            <span class="callout__icon">🧠</span>
+            <div>
+              <div class="callout__t">Idee</div>
+              <div class="callout__d">Punem „Alertă live” + listă dedicații în timp real.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form class="form" action="#" method="post" autocomplete="on">
+        <div class="form__grid">
+          <label class="field">
+            <span class="field__label">Numele tău</span>
+            <input class="field__input" type="text" name="nume" placeholder="Ex: Andrei" required />
+          </label>
+
+          <label class="field">
+            <span class="field__label">Pentru cine e</span>
+            <input class="field__input" type="text" name="pentru" placeholder="Ex: Maria" required />
+          </label>
+
+          <label class="field field--full">
+            <span class="field__label">Mesaj dedicație</span>
+            <textarea class="field_input field_textarea" name="mesaj" placeholder="Scrie dedicația aici..." required></textarea>
+          </label>
+
+          <label class="field">
+            <span class="field__label">Platformă</span>
+            <select class="field__input" name="platforma">
+              <option>TikTok Live</option>
+              <option>YouTube Live</option>
+              <option>Ambele</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span class="field__label">Suma</span>
+            <select class="field__input" name="suma">
+              <option>£5 (Standard)</option>
+              <option selected>£10 (Boost)</option>
+              <option>£20 (VIP - 2 dedicații)</option>
+              <option>Altă sumă</option>
+            </select>
+          </label>
+
+          <label class="field field--full">
+            <span class="field__label">Telefon (opțional)</span>
+            <input class="field__input" type="tel" name="telefon" placeholder="+44..." />
+          </label>
+        </div>
+
+        <div class="pay">
+          <div class="pay__title">Alege plata</div>
+          <div class="pay__row">
+            <button class="payBtn" type="button">
+              <span class="payBtn__logo">💳</span>
+              <span class="payBtn__txt">
+                <strong>Card</strong>
+                <em>Stripe</em>
+              </span>
+            </button>
+
+            <button class="payBtn" type="button">
+              <span class="payBtn__logo">🅿️</span>
+              <span class="payBtn__txt">
+                <strong>PayPal</strong>
+                <em>Rapid</em>
+              </span>
+            </button>
+
+            <button class="payBtn" type="button">
+              <span class="payBtn__logo">⚡</span>
+              <span class="payBtn__txt">
+                <strong>Revolut</strong>
+                <em>Link</em>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="form__actions">
+          <button class="btn btn--primary btn--full" type="submit">
+            Trimite dedicația
+            <span class="btn__chip">DEMO</span>
+          </button>
+          <p class="tiny">
+            Prin trimitere confirmi că mesajul e decent (fără jigniri). 💙
+          </p>
+        </div>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__left">
+        <div class="footer__brand">
+          <span class="footer__logo">✨</span>
+          <span>
+            <strong>SAKE</strong> • Dedicații Live
+          </span>
+        </div>
+        <p class="tiny">© <span id="year"></span> • Design premium (demo). Conectăm plățile și lista live la cerere.</p>
+      </div>
+
+      <div class="footer__right">
+        <a class="chip" href="#trimite">Trimite dedicație</a>
+        <a class="chip chip--ghost" href="#live">Live</a>
+        <a class="chip chip--ghost" href="#top">Sus ↑</a>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // tiny UX: year + smooth focus (no frameworks)
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
